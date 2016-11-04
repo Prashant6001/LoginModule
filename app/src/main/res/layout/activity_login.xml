@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutLogo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffcc00"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Login Module"
+        android:textStyle="bold"
+        android:textColor="#003F87"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:drawableLeft="@drawable/usericon"
+        android:drawablePadding="5dp"
+        android:hint="Enter Username"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/box"
+        android:drawableLeft="@drawable/lockicon"
+        android:drawablePadding="5dp"
+        android:hint="Enter Password"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <!--
+             <CheckBox
+            android:id="@+id/cbLogin"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/cbMsg"
+            android:textColor="#003F87" />
+    -->
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:padding="5dp"
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:enabled="false"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/version_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Version No. "
+        android:textColor="#003F87"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
